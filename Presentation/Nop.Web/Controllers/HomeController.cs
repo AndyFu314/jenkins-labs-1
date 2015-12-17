@@ -9,6 +9,7 @@ namespace Nop.Web.Controllers
         public ActionResult Index()
         {
             //WebHook
+            //oneClickTest
             return View();
         }
     }
