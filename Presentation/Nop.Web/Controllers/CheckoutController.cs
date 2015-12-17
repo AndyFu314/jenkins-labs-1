@@ -1,4 +1,33 @@
-﻿
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.Mvc;
+using System.Web.Routing;
+using Nop.Core;
+using Nop.Core.Domain.Common;
+using Nop.Core.Domain.Customers;
+using Nop.Core.Domain.Discounts;
+using Nop.Core.Domain.Orders;
+using Nop.Core.Domain.Payments;
+using Nop.Core.Domain.Shipping;
+using Nop.Core.Plugins;
+using Nop.Services.Catalog;
+using Nop.Services.Common;
+using Nop.Services.Customers;
+using Nop.Services.Directory;
+using Nop.Services.Localization;
+using Nop.Services.Logging;
+using Nop.Services.Orders;
+using Nop.Services.Payments;
+using Nop.Services.Shipping;
+using Nop.Services.Stores;
+using Nop.Services.Tax;
+using Nop.Web.Extensions;
+using Nop.Web.Framework.Controllers;
+using Nop.Web.Framework.Security;
+using Nop.Web.Models.Checkout;
+using Nop.Web.Models.Common;
 
 namespace Nop.Web.Controllers
 {
